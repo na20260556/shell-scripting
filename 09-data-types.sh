@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # everything in shell is considerd as string
+set -e
 NUMBER1=100
 NUMBER2=200
 NAME=DevOps
