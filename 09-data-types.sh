@@ -7,7 +7,7 @@ NAME=DevOps
 
 #SUM=$(($NUMBER1+$NUMBER2+$NAME))
 
-SUM=$(($NUMBER1  +$NUMBER2))
+SUM= $(($NUMBER1  +$NUMBER2))
 
 echo "SUM is: ${SUM}"
 
