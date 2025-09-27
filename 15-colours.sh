@@ -20,14 +20,14 @@ VALIDATE(){ # functions receive inputs through args just like shell script args
     fi
 }
 
-dnf list installed mysql
+#dnf list installed mysql
 # Install if it is not found
-if [ $? -ne 0 ]; then
-    dnf install mysql -y
-    VALIDATE $? "MySQL"
-else
-    echo -e "MySQL already exist ... $Y SKIPPING $N"
-fi
+#if [ $? -ne 0 ]; then
+ #   dnf install mysql -y
+  #  VALIDATE $? "MySQL"
+#else
+ #   echo -e "MySQL already exist ... $Y SKIPPING $N"
+#fi
 
 dnf list installed nginx
 if [ $? -ne 0 ]; then
